@@ -1,4 +1,4 @@
 @echo off
 setlocal enableextensions
-sh linter-elm-make.sh
+sh linter-elm-make.sh %*
 endlocal
