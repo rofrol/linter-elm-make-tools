@@ -1,5 +1,7 @@
 Update: It seems that problems with browsersync reloading can be solved with https://www.browsersync.io/docs/options/#option-reloadDebounce. And since linter-elm-make outputs to dist/elm.js, it's not a problem for me now. 
 
+Update2: With these scripts I didn't get warnings from linter, only errors.
+
 
 Workaround for some problems with
 
