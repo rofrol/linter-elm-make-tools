@@ -1,4 +1,6 @@
-Update: It seems that problems with browsersync reloading can be solved with https://www.browsersync.io/docs/options/#option-reloadDebounce. And since I've modified localy linter-elm-make to output to dist/elm.js, it's not a problem for me now. There is an issue for that https://github.com/mybuddymichael/linter-elm-make/issues/107
+Update: It seems that problems with browsersync reloading can be solved with https://www.browsersync.io/docs/options/#option-reloadDebounce. And since I've modified localy linter-elm-make to output to dist/elm.js, it's not a problem for me now. There is an issue for that https://github.com/mybuddymichael/linter-elm-make/issues/107.
+
+If you want to change `linter-elm-make` locally, edit file `~/.atom/packages/linter-elm-make/lib/linter-elm-make.js` and chage `'--output=/dev/null' to `'--output=dist/elm.js'`
 
 Update2: With these scripts I didn't get warnings from linter, only errors.
 
